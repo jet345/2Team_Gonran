@@ -34,7 +34,7 @@ int main(){
   unsigned char ucBuffer[500];
   int tmp_hum;
   int tmp_temp;
-  echoServPort = 5000;
+  echoServPort = 4000;
   servSock = socket( PF_INET, SOCK_STREAM, IPPROTO_TCP );  // Socket을 생성한다.
   if( servSock < 0 )
   {
